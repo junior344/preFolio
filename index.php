@@ -14,7 +14,7 @@
 <body>
     <?php include 'pages/header.php'; ?>
 
-    <div class=" d-flex justify-content-center flex-column m-5 p-5 ">
+    <div class=" d-flex justify-content-center flex-column m-5 p-5 " id="scrollspyHeading1">
         <h1 class=" fw-bolder custom-font-size ">Josias Junior Mbogle</h1>
         <p class="fs-1">Developpeur Full-Stack</p>
         <p class="fs-5 mt-3">
@@ -33,9 +33,15 @@
         <span class="badge rounded-pill text-bg-dark m-1">NODEJS</span>
     </div>
 
-    <main class="bg-dark ">
-        <h2 class="p-5 text-light text-center">PROJETS</h2>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+     >
+        <h2 class=" text-center">PROJETS</h2>
+        
         <?php include 'pages/projet.php'; ?>
+
+        <h2 class=" text-center">CONTACT</h2>
+
+        <?php include 'pages/Contact.php'; ?>
     </main>
 
 
