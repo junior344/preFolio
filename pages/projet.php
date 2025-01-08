@@ -10,7 +10,7 @@
         </ul>
 
         <div class="tab-content nav-tabs" id="myTab" role="tablist">
-            <div class=" tab-pane fade show active m-5" style="width: 18rem; " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
+            <div class=" tab-pane fade show active m-5" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
                 <img src="/assets/images/pokedex.png" class="card-img-top" alt="projet marvel quiz">
                 <div class="card-body">
                 <a href="https://pokedex-smoky-three-33.vercel.app/"class="fs-4 text-primary " target="_blank"><h3 >Pokedex</h3></a>   
